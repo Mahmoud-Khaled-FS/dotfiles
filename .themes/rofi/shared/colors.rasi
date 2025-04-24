@@ -1,23 +1,4 @@
 x {
-    background:     #191919D8;
-    background-alt: #2A2A2A;
-    foreground:     #FFFFFF;
-    selected:       #2A2A2A;
-    active:         #2A2A2A;
-    urgent:         #e06c75;
-}
-
-xx {
-    background:     #110E15D8;
-    background-alt: #211720;
-    foreground:     #FFFFFF;
-    selected:       #430E18;
-    active:         #2A2A2A;
-    urgent:         #e06c75;
-}
-
-
-* {
     background:     #0E161BD8;
     background-alt: #162022;
     foreground:     #FFFFFF;
@@ -26,3 +7,22 @@ xx {
     urgent:         #314048;
 }
 
+xx {
+    background:     #191919D8;
+    background-alt: #2A2A2A;
+    foreground:     #FFFFFF;
+    selected:       #2A2A2A;
+    active:         #2A2A2A;
+    urgent:         #e06c75;
+}
+
+xxx {
+    background:     #110E15D8;
+    background-alt: #211720;
+    foreground:     #FFFFFF;
+    selected:       #430E18;
+    active:         #2A2A2A;
+    urgent:         #e06c75;
+}
+
+@import "rose_pine.rasi"

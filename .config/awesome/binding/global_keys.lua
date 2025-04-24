@@ -190,4 +190,17 @@ end), awful.key({}, "XF86AudioLowerVolume", function()
 end), awful.key({}, "XF86AudioMute", function()
 end))
 
+-- ROFi binding --
+globalkeys = gears.table.join(globalkeys, awful.key({modkey}, "a", function()
+    awful.spawn.with_shell(constant.script_dir .. '/rofi_luncher.sh')
+end, {
+    description = "Spawn rofi luncher",
+    group = "rofi"
+}), awful.key({modkey}, "x", function()
+    awful.spawn.with_shell(constant.script_dir .. '/rofi_powermenu.sh')
+end, {
+    description = "Spawn rofi power menu",
+    group = "rofi"
+}))
+
 return globalkeys

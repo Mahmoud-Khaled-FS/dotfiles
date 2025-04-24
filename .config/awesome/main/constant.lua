@@ -12,7 +12,8 @@ local Constant = {
 
     tags = {
         names = {"[I]", "[II]", "[III]", "[IV]", "[V]", "[VI]", "[VII]", "[VIII]", "[IX]"}
-    }
+    },
+    script_dir = "~/.scripts"
 }
 
 return Constant

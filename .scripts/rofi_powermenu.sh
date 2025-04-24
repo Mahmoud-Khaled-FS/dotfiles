@@ -1,4 +1,5 @@
 #!/bin/bash
+WM="awesome"
 
 THEME_PATH="~/.themes/rofi/powermenu.rasi"
 
@@ -18,14 +19,45 @@ run_rofi() {
 
 choise="$(run_rofi)"
 
+
+shutdown() {
+	notify-send -u normal "Shutdown"
+	sleep 1
+	if [[ "$(ps --no-headers -o comm 1)" -eq "runit" ]] then
+		loginctl poweroff
+	else 
+		shutdown -P 0
+	fi
+}
+
+reboot() {
+	notify-send -u normal "Reboot"
+	sleep 1
+	if [[ "$(ps --no-headers -o comm 1)" -eq "runit" ]] then
+		loginctl reboot
+	else 
+		reboot
+	fi
+}
+
+reboot() {
+	notify-send -u normal "Logout"
+	sleep 1
+	if [[ "$(ps --no-headers -o comm 1)" -eq "runit" ]] then
+		loginctl reboot
+	else 
+		reboot
+	fi
+}
+
 case ${choise} in
 	$SHUTDOWN_COMMAND)
-		shutdown -P 0
+		shutdown
 		;;
 	$RESTART_COMMAND)
 		reboot
 		;;
 	$EXIT_COMMAND)
-		pkill dwm
+		pkill $WM
 		;;
 esac
