@@ -1,0 +1,17 @@
+#!/bin/env bash
+
+FULL_SCREEN="Full Screen"
+AREA="Area"
+
+rofi_cmd() {
+	echo -e "$FULL_SCREEN\n$AREA" | rofi -dmenu -markup-rows
+}
+
+selected="$(rofi_cmd)"
+
+if [[ "$selected" == "$FULL_SCREEN" ]]; then
+	red_screenshot --screen
+elif [[ "$selected" == "$AREA" ]]; then
+	red_screenshot --area
+fi
+

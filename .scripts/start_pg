@@ -1,0 +1,5 @@
+#!/bin/env bash
+
+su - postgres
+
+pg_ctl start
