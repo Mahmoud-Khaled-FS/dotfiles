@@ -1,3 +1,7 @@
+# Make Ctrl+Arrow work as word navigation
+bindkey '^[[1;5D' backward-word   # Ctrl + Left
+bindkey '^[[1;5C' forward-word    # Ctrl + Right
+
 # prompot
 eval "$(starship init zsh)"
 
@@ -54,6 +58,14 @@ eval "$(fzf --zsh)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 # PATH
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.scripts:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# opencode
+export PATH=/home/mahmoud/.opencode/bin:$PATH
+
+DOTNET_CLI_TELEMETRY_OPTOUT=1

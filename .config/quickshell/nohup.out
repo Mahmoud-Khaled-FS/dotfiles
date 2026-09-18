@@ -1,0 +1,37 @@
+[32m  INFO[0m: Launching config: "/home/mahmoud/.config/quickshell/shell.qml"
+[32m  INFO[0m: Shell ID: "81059e8ab251cc0cb86ae059b94da765" Path ID "81059e8ab251cc0cb86ae059b94da765"
+[32m  INFO[0m: Saving logs to "/run/user/1000/quickshell/by-id/owkwmeojt/log.qslog"
+[32m  INFO[0m: QML tooling support enabled
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML IpcHandler at @modules/Island/Bar.qml[24:13]: Handler was registered but will not be used because another handler is registered for target powerMenu
+[33m  WARN[97m scene[0m: QML IpcHandler at @modules/Island/Bar.qml[17:13]: Handler was registered but will not be used because another handler is registered for target appLauncher
+[32m  INFO[0m: Configuration Loaded
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[0m: qs:@/qs/modules/Island/DynamicIsland.qml:28:17: QML DynamicIsland: Binding loop detected for property "width"
+[33m  WARN[0m: qs:@/qs/modules/Island/DynamicIsland.qml:28:17: QML DynamicIsland: Binding loop detected for property "width"
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[0m: qs:@/qs/modules/Island/DynamicIsland.qml:28:17: QML DynamicIsland: Binding loop detected for property "width"
+[33m  WARN[0m: qs:@/qs/modules/Island/DynamicIsland.qml:28:17: QML DynamicIsland: Binding loop detected for property "width"
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[0m: qs:@/qs/modules/Island/DynamicIsland.qml:28:17: QML DynamicIsland: Binding loop detected for property "width"
+[33m  WARN[0m: qs:@/qs/modules/Island/DynamicIsland.qml:28:17: QML DynamicIsland: Binding loop detected for property "width"
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m quickshell.service.pipewire.loop[0m: Pipewire error on object 0 with code -32 connection error
+[33m  WARN[97m scene[0m: @modules/Island/widgets/Volume.qml[31:-1]: TypeError: Cannot read property 'name' of null
+[33m  WARN[97m scene[0m: @modules/Island/widgets/Volume.qml[31:-1]: TypeError: Cannot read property 'name' of null
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m qt.qpa.wayland[0m: eglSwapBuffers failed with 0x3000, surface: 0x7f58aea93900
+[33m  WARN[97m scene[0m: QML MouseArea at @modules/Island/widgets/Volume.qml[85:5]: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[33m  WARN[97m qt.qpa.wayland[0m: eglSwapBuffers failed with 0x3000, surface: 0x7f58aea96100
+[33m  WARN[0m: The Wayland connection broke. Did the Wayland compositor die?

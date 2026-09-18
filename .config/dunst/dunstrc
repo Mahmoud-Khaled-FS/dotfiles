@@ -6,13 +6,12 @@
   progress_bar_max_width = 380
   progress_bar_corner_radius = 2
 
-  padding 10
-  horizontal_padding 10
-  frame_width 1
+  padding = 10
+  horizontal_padding = 10
+  frame_width = 1
   gap_size = 3
   font = "Hack 14"
-
-  // TODO (MAHMOUD) - Add icon theme with icon config
+  monitor = 1
 
   background = "#26233a"
   foreground = "#e0def4"

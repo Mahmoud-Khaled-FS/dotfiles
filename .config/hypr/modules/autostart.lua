@@ -1,0 +1,6 @@
+hl.on("hyprland.start", function () 
+  hl.exec_cmd("pipewire")
+  hl.exec_cmd("qs")
+  hl.exec_cmd("wl-paste --watch cliphist store")
+  hl.exec_cmd("awww-daemon --no-cache & sleep 1 && awww img ~/Pictures/wallpaper/003.jpg --resize crop")
+end)

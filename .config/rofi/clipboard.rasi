@@ -1,0 +1,73 @@
+@import "colors/colors.rasi"
+@import "fonts/fonts.rasi"
+
+* {
+    border-colour:               var(selected);
+    handle-colour:               var(foreground);
+    background-colour:           var(background);
+    foreground-colour:           var(foreground);
+    alternate-background:        var(background-alt);
+    normal-background:           var(background);
+    normal-foreground:           var(foreground);
+    urgent-background:           var(urgent);
+    urgent-foreground:           var(background);
+    active-background:           var(active);
+    active-foreground:           var(background);
+    selected-normal-background:  var(selected);
+    selected-normal-foreground:  var(background);
+    selected-urgent-background:  var(active);
+    selected-urgent-foreground:  var(background);
+    selected-active-background:  var(urgent);
+    selected-active-foreground:  var(background);
+    alternate-normal-background: var(background);
+    alternate-normal-foreground: var(foreground);
+    alternate-urgent-background: var(urgent);
+    alternate-urgent-foreground: var(background);
+    alternate-active-background: var(active);
+    alternate-active-foreground: var(background);
+}
+
+/***** Window *****/
+window {
+    location: center;
+    anchor: center;
+    width: 600px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: @background-colour;
+}
+
+/***** Main *****/
+mainbox {
+    spacing: 15px;
+}
+
+/***** Input *****/
+inputbar {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: @alternate-background;
+}
+
+entry {
+    placeholder: "Search clipboard...";
+}
+
+/***** List *****/
+listview {
+    lines: 10;
+    spacing: 8px;
+    scrollbar: true;
+    background-color: @background-colour;
+}
+
+/***** Elements *****/
+element {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+element selected {
+    background-color: var(selected);
+    text-color: var(background);
+}
