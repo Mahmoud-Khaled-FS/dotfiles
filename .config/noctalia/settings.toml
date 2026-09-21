@@ -1,0 +1,75 @@
+[shell]
+corner_radius_scale = 0.0
+font_family = "JetBrainsMono" # Fix
+time_format = "%I:%M %p"
+date_format = "%b, %d-%m-%Y"
+offline_mode = false
+
+telemetry_enabled = false
+setup_wizard_enabled = false
+
+settings_window_translucent = true
+
+show_location = false
+
+[shell.panel]
+transparency_mode = "soft"
+borders = true
+shadow = true
+floating_layer = "overlay"
+launcher_placement       = "attached"
+clipboard_placement      = "attached"
+control_center_placement = "attached"
+wallpaper_placement      = "attached"
+session_placement        = "attached"
+polkit_placement         = "floating"
+
+[shell.launcher]
+categories = false
+show_icons = true
+show_app_origin_indicator = true
+compact = false
+app_grid = false
+provider_prefix = "!"
+
+[shell.screenshot]
+save_to_file         = true
+directory            = "~/Pictures/screenshots"
+copy_to_clipboard    = true
+annotate             = true
+close_on_copy        = false
+close_on_save        = true
+
+# Bar
+[bar.default]
+position = "top"
+
+thickness = 30
+radius = 0
+margin_edge = 3
+margin_ends = 10
+widget_spacing = 10
+
+start  = ["launcher", "workspaces"]
+center = ["clock"]
+end    = ["media", "tray", "notifications", "keyboard_layout", "network", "bluetooth", "volume", "battery", "session"]
+
+[widget.clock]
+format = "%I:%M %p"
+
+[widget.launcher]
+glyph = "brand-arc"
+
+[wallpaper]
+enabled = true
+fill_mode = "crop"
+directory = "~/Pictures/Wallpaper"
+
+[widget.tray]
+hidden = ["nm-applet", "blueman", "org.kde.StatusNotifierItem-1-1"]
+pinned = ["nm-applet"]
+hide_passive = true
+drawer = true
+drawer_columns = 3
+drawer_item_size = 20
+detached_panel = false
