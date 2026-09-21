@@ -30,5 +30,3 @@ for i = 1, SMW.get_amount_of_workspaces() do
     hl.bind(mkey(n), SMW.workspace(n))
     hl.bind(mskey(n), SMW.move_to_workspace_silent(n))
 end
-
-require "modules.bindings.media"

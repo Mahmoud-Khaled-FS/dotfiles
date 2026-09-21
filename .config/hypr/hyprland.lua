@@ -1,3 +1,4 @@
+require("modules.helpers")
 require("modules.monitors")
 require("modules.env")
 require("modules.autostart")
