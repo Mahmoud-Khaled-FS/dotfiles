@@ -1,6 +1,6 @@
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 
-local theme = require("themes.catppuccin-mocha")
+local theme = require("themes.gruvbox")
 
 hl.config({
     general = {

@@ -4,7 +4,7 @@ local constant = require "modules.constant"
 hl.bind(mkey("Return"), hl.dsp.exec_cmd(constant.terminal))
 
 -- Screenshots
-hl.bind(mskey("S"), hl.dsp.exec_cmd("noctalia msg screenshot-annotate"))
+hl.bind(mskey("S"), hl.dsp.exec_cmd("noctalia msg screenshot-region"))
 hl.bind(makey("S"), hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen"))
 
 -- Panel

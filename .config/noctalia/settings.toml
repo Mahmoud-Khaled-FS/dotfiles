@@ -44,7 +44,7 @@ close_on_save        = true
 [bar.default]
 position = "top"
 
-thickness = 30
+thickness = 25
 radius = 0
 margin_edge = 3
 margin_ends = 10
@@ -54,22 +54,31 @@ start  = ["launcher", "workspaces"]
 center = ["clock"]
 end    = ["media", "tray", "notifications", "keyboard_layout", "network", "bluetooth", "volume", "battery", "session"]
 
-[widget.clock]
-format = "%I:%M %p"
-
-[widget.launcher]
-glyph = "brand-arc"
+[theme]
+mode              = "dark"
+shell_mode        = "follow"
+source            = "builtin"
+builtin           = "Gruvbox"
 
 [wallpaper]
 enabled = true
 fill_mode = "crop"
 directory = "~/Pictures/Wallpaper"
 
+[widget.clock]
+format = "%I:%M %p"
+
+[widget.launcher]
+glyph = "brand-arc"
+
 [widget.tray]
-hidden = ["nm-applet", "blueman", "org.kde.StatusNotifierItem-1-1"]
-pinned = ["nm-applet"]
+hidden = []
+pinned = []
 hide_passive = true
 drawer = true
 drawer_columns = 3
 drawer_item_size = 20
 detached_panel = false
+
+[widget.workspaces]
+style = "minimal"
