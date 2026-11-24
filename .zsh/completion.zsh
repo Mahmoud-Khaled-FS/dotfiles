@@ -14,5 +14,5 @@ zstyle ':completion:*' cache-path ~/.cache/zsh/compcache
 
 zstyle ':fzf-tab:*' use-fzf-default-opts yes
 zstyle ':fzf-tab:*' switch-group '<' '>'
-zstyle ':fzf-tab:complete:(cd|__zoxide_z):*' fzf-preview 'eza -1 --color=always --icons $realpath'
+zstyle ':fzf-tab:complete:(cd|__zoxide_z):*' fzf-preview 'eza --color=always --icons=auto $realpath'
 zstyle ':fzf-tab:complete:kill:argument-rest' fzf-preview 'ps -o pid,user,%cpu,cmd -p $word'
