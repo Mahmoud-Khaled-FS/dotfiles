@@ -6,13 +6,14 @@ bindkey '^[[1;5C' forward-word    # Ctrl + Right
 eval "$(starship init zsh)"
 
 # Plugins
+autoload -U compinit;compinit
+source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
+
 fpath=(~/.zsh/plugins/zsh-completions/src $fpath)
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/zsh-completions/zsh-completions.plugin.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-autoload -U compinit;compinit
-source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 
 # History
 HISTSIZE=5000
@@ -33,7 +34,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 
 # Aliases
-alias ls='eza'
+alias ls='eza -l'
 alias ll='eza -l'
 alias la='eza -la'
 
@@ -44,8 +45,6 @@ alias xu='sudo xbps-install -S && sudo xbps-install -u xbps && sudo xbps-install
 alias xuni='sudo xbps-remove'
 
 alias pa='php artisan'
-
-alias mytodo='grep -rnosE \"(TODO|FIXME|NOTE|WARN) \(MAHMOUD\)\"'
 
 # Shell utils
 eval "$(fzf --zsh)"
@@ -68,4 +67,3 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # opencode
 export PATH=/home/mahmoud/.opencode/bin:$PATH
 
-DOTNET_CLI_TELEMETRY_OPTOUT=1

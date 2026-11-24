@@ -7,7 +7,6 @@ hl.env("HYPRCURSOR_SIZE", "24")
 
 -- Toolkit Backend
 hl.env("GDK_BACKEND", "wayland,x11,*")
-hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 hl.env("SDL_VIDEODRIVER", "wayland")
 hl.env("CLUTTER_BACKEND", "wayland")
 
@@ -26,3 +25,7 @@ hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
 
 hl.env("LIBVA_DRIVER_NAME", "nvidia")
 hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
+hl.env("GBM_BACKEND", "nvidia-drm")
+hl.env("NVD_BACKEND", "direct")                 -- for nvidia-vaapi-driver
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")  -- VS Code, Cursor, Obsidian, Postman on native Wayland
+hl.env("MOZ_ENABLE_WAYLAND", "1")

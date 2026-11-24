@@ -9,7 +9,7 @@ hl.bind("XF86AudioMute",        hl.dsp.exec_cmd(noctalia_ipc("volume-mute")),   
 hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd(noctalia_ipc("mic-mute")),   { locked = true, repeating = true })
 
 -- Brightness
-hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd(noctalia_ipc("braightness-up")),                  { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd(noctalia_ipc("brightness-up")),                  { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd(noctalia_ipc("brightness-down")),                  { locked = true, repeating = true })
 
 -- -- Keyboard Brightness
